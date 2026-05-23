@@ -82,3 +82,6 @@ The key difference: less ambiguity. The LLM knows *why* it's making decisions, a
 - Documents intent (not just code) — you capture *why* things are built
 - Works across implementation, testing, and verification from a single source of truth
 - Fits naturally into the SDLC instead of skipping it
+
+
+> Res: https://www.ibm.com/training
