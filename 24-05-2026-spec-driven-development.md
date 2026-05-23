@@ -1,10 +1,13 @@
-# Spec-Driven Development: Coding with Clarity
+# Spec-Driven Development: AI Assisted Coding with Clarity
 
 Building apps today is changing. Writing and reviewing code used to be the hardest part. Now it's knowing how to tell an LLM what you want. That skill is **spec-driven development**.
+
+![alt text](image-4.png)
 
 ## Vibe Coding vs Traditional SDLC
 
 **Vibe coding** is what most people think of with AI coding agents:
+
 - Start with a prompt (e.g., "build a login page in Python")
 - AI generates boilerplate
 - Edit prompt, regenerate, repeat until it works
@@ -12,11 +15,19 @@ Building apps today is changing. Writing and reviewing code used to be the harde
 - Inconsistent results — a hundred tries can give a hundred different outcomes
 - Can take longer than writing the code yourself
 
+![alt text](image-1.png)
+
 This skips the **Software Development Lifecycle (SDLC)**. Traditional SDLC goes: Plan → Design → Implement → Test → Deploy → Maintain. Vibe coding jumps straight to implementation, which means every run can produce different results.
+
+![alt text](image-2.png)
 
 ## What is Spec-Driven Development?
 
-Spec-driven development (spec coding) adds SDLC structure to AI-generated software. Instead of prompting an implementation, you prompt:
+Spec-driven development (spec coding) adds SDLC structure to AI-generated software. 
+
+![alt text](image-3.png)
+
+Instead of prompting an implementation, you prompt:
 
 - **Behavior** — what the system should do
 - **Constraints** — rules and boundaries
@@ -48,12 +59,15 @@ SDD is like TDD and BDD on steroids — the spec becomes the primary artifact dr
 ## Example: User Authentication
 
 ### Vibe Coding
+
 - Prompt: "build a /login endpoint"
 - AI guesses the structure — libraries, error handling, validation
 - 30 different ways to implement it — back-and-forth edits until it works
 
 ### Spec-Driven
+
 Define the feature and build it out in spec first:
+
 1. **Behavior**: "POST /login endpoint accepting `user` and `pass` variables"
 2. **Failure conditions**: "return error if username is missing"
 3. **Test cases**: "valid credentials → 200 response"
