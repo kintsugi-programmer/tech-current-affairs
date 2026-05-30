@@ -1,5 +1,16 @@
 # Spec-Driven Development: AI Assisted Coding with Clarity
 
+<div style="position:relative;width:100%;padding-bottom:56.25%;height:0;">
+  <iframe
+    src="https://www.youtube.com/embed/lrHP3xbkRRE?si=XhOhSuzoT1r6L_cx"
+    title="YouTube video player"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+
 Building apps today is changing. Writing and reviewing code used to be the hardest part. Now it's knowing how to tell an LLM what you want. That skill is **spec-driven development**.
 
 ![alt text](image-4.png)
